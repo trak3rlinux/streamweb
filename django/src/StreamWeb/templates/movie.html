@@ -1,0 +1,45 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script type="text/javascript" src="{% static 'js/index.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/movie.js' %}"></script>
+    <title>StreamWeb - {{ movie_name }}</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menu_ul">
+                <li class="menu_li" id="logo">
+                    <a href="/">StreamWeb</a>                   </a>
+                </li>
+                <li class="menu_li"><a href="/">Home</a></li>
+                <li class="menu_li" id="active"><a href="/#">Movies</a></li>
+                <li class="menu_li"><a href="/#">TV Shows</a></li>
+                <li class="menu_li"><a href="/#">About</a></li>
+
+                <li class="menu_li" style="float:right;">
+                    <form action="" id="form_search" class="form_search" onsubmit="search_func()" method="get">
+                        <input type="text" class="input_search" name="search_text" id="search_text" placeholder="Search something..." autocomplete="off "required="required"/>
+                        <input type="submit" class="input_search" name="send" id="send" value="Search"/>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>{{ movie_name }}</h1>
+
+    <article>
+        <img src="{{ poster }}">
+        <a href="{{ link }}">Watch Now</a>
+        <p>{{ plot }}</p>
+    </article>
+
+    <footer>
+        <p>Copyright 2023 - StreamWeb by Trak3r</p>
+    </footer>
+
+</body>
+</html>

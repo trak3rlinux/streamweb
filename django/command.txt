@@ -1,0 +1,17 @@
+To create a django's project: 
+
+django-admin startproject <nameproj>
+
+To launch the dev serveur :
+
+cd src
+python manage.py runserver
+python manage.py migrate
+
+create file/dir:
+views.py
+templates/
+
+'DIRS': ['C:/Users/antoi/OneDrive/Desktop/StreamingCrawler/django/src/StreamWeb/templates/'],
+OU
+'DIRS': [os.path.join(BASE_DIR, "StreamWeb/templates/")],
