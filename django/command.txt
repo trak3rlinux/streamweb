@@ -15,3 +15,5 @@ templates/
 'DIRS': ['C:/Users/antoi/OneDrive/Desktop/StreamingCrawler/django/src/StreamWeb/templates/'],
 OU
 'DIRS': [os.path.join(BASE_DIR, "StreamWeb/templates/")],
+
+Incroyable Github
