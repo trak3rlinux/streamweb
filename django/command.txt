@@ -16,4 +16,4 @@ templates/
 OU
 'DIRS': [os.path.join(BASE_DIR, "StreamWeb/templates/")],
 
-Incroyable Github
+CSS help : https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061352-structurez-votre-page#/id/r-8063767
