@@ -74,3 +74,23 @@ footer p {
     padding-bottom: 1.5rem;
     padding-left: 30%;
 }
+
+/* --------------- Movie article --------------- */
+.movie {
+    border: solid;
+    border-color: #111;
+    border-width: 3px;
+    margin-bottom: 2rem;
+    padding-bottom: 13rem;
+}
+
+.movie img {
+    float: left;
+    width: 15%;
+}
+
+.movie p {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 30%;
+}
